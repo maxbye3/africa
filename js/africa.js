@@ -20,7 +20,7 @@ function clickForAfrica() {
   <audio id="audio" src="assets/africa.mp3"></audio>'
 
   var audio = document.getElementById('audio')
-  // audio.play()
+  audio.play()
 
   anime
     .timeline({ loop: false })
