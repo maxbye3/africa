@@ -1,7 +1,7 @@
 let intVideo = true
 function clickForAfrica() {
   if (intVideo) {
-    document.getElementById('myVideo').play()
+    document.getElementById('africa-video').play()
     document.getElementById('disclaimer').style.display = 'none'
     intVideo = false
   }
@@ -20,7 +20,7 @@ function clickForAfrica() {
   <audio id="audio" src="assets/africa.mp3"></audio>'
 
   var audio = document.getElementById('audio')
-  audio.play()
+  // audio.play()
 
   anime
     .timeline({ loop: false })
